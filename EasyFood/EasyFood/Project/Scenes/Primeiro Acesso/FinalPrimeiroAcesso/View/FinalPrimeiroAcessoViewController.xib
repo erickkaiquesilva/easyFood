@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo-finalizacao" translatesAutoresizingMaskIntoConstraints="NO" id="7pu-4d-u26">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Obrigado pelas respostas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzm-9J-sHT">
+                    <rect key="frame" x="40" y="90" width="295" height="64.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desejamos que voce tenha uma boa refeição nos melhores restaurantes. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Db0-jk-fW0">
+                    <rect key="frame" x="40" y="254.5" width="295" height="68.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OX-y4-cnu">
+                    <rect key="frame" x="40" y="601" width="295" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.50980392159999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="YkN-SC-Vz4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <state key="normal" title="FINALIZAR">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="7pu-4d-u26" secondAttribute="bottom" id="1t2-Xf-JGw"/>
+                <constraint firstItem="7pu-4d-u26" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4JP-IG-11l"/>
+                <constraint firstItem="rzm-9J-sHT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="5XQ-9P-Q2D"/>
+                <constraint firstItem="7pu-4d-u26" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="9bB-PP-WIT"/>
+                <constraint firstAttribute="trailing" secondItem="Db0-jk-fW0" secondAttribute="trailing" constant="40" id="DRt-Yn-nlU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9OX-y4-cnu" secondAttribute="trailing" constant="40" id="Dtp-Wb-GfW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="9OX-y4-cnu" secondAttribute="bottom" constant="16" id="OrK-c2-PY2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7pu-4d-u26" secondAttribute="trailing" id="RrO-5N-n9E"/>
+                <constraint firstItem="rzm-9J-sHT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="90" id="kiA-hp-ERh"/>
+                <constraint firstItem="9OX-y4-cnu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="kvC-lX-C5b"/>
+                <constraint firstItem="Db0-jk-fW0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="rg5-jZ-3zh"/>
+                <constraint firstItem="Db0-jk-fW0" firstAttribute="top" secondItem="rzm-9J-sHT" secondAttribute="bottom" constant="100" id="udB-kM-nU7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rzm-9J-sHT" secondAttribute="trailing" constant="40" id="w9d-Hw-iPB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="107.49625187406298"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fundo-finalizacao" width="900" height="1640"/>
+    </resources>
+</document>

@@ -1,5 +1,5 @@
 //
-//  IntroViewController.swift
+//  LoginViewController.swift
 //  EasyFood
 //
 //  Created by Erick Kaique Da Silva on 06/12/19.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class IntroViewController: UIViewController, IntroViewDelegate {
+class LoginViewController: UIViewController, LoginViewDelegate {
     
-    @IBOutlet var uiIntro: IntroView!
+    @IBOutlet var uiLogin: LoginView!
     
-    weak var delegate: IntroViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,15 +20,10 @@ class IntroViewController: UIViewController, IntroViewDelegate {
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.isTranslucent = true
         
-        uiIntro.controller = self
+        uiLogin.controller = self
     }
     
-    func buttonLogin() {
-        delegate?.goToSignIn()
+    func recepitData(email: String?, password: String?) {
+        print("\(email) - \(password)")
     }
-    
-    func buttonCadastro() {
-        delegate?.goToSignUp()
-    }
-    
 }

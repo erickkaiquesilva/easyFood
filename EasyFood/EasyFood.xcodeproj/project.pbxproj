@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F47F6CF1239C0F5C0001C0F9 /* QuestaoTresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CF0239C0F5C0001C0F9 /* QuestaoTresViewController.swift */; };
+		F47F6CF3239C0F6B0001C0F9 /* QuestaoTresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CF2239C0F6B0001C0F9 /* QuestaoTresView.swift */; };
+		F47F6CF5239C0F7B0001C0F9 /* QuestaoTresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47F6CF4239C0F7B0001C0F9 /* QuestaoTresViewController.xib */; };
+		F47F6CF9239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CF8239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift */; };
+		F47F6CFB239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CFA239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift */; };
+		F47F6CFD239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47F6CFC239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib */; };
+		F47F6CFF239C160E0001C0F9 /* CadastroProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CFE239C160E0001C0F9 /* CadastroProtocols.swift */; };
+		F47F6D02239C16870001C0F9 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6D01239C16870001C0F9 /* UserSignUp.swift */; };
 		F4ADDD6F239AD4C6006EF465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDD6E239AD4C6006EF465 /* AppDelegate.swift */; };
 		F4ADDD71239AD4C6006EF465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDD70239AD4C6006EF465 /* SceneDelegate.swift */; };
 		F4ADDD78239AD4CB006EF465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDD77239AD4CB006EF465 /* Assets.xcassets */; };
@@ -17,6 +25,23 @@
 		F4ADDDA6239AD706006EF465 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDA5239AD706006EF465 /* IntroViewController.swift */; };
 		F4ADDDAA239AD7FB006EF465 /* RouterBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDA9239AD7FB006EF465 /* RouterBase.swift */; };
 		F4ADDDB0239B1A12006EF465 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDAF239B1A12006EF465 /* IntroView.swift */; };
+		F4ADDDB2239B4068006EF465 /* IntroProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDB1239B4068006EF465 /* IntroProtocols.swift */; };
+		F4ADDDB4239B42E8006EF465 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDB3239B42E8006EF465 /* LoginViewController.xib */; };
+		F4ADDDB6239B45AE006EF465 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDB5239B45AE006EF465 /* LoginView.swift */; };
+		F4ADDDB8239B482B006EF465 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDB7239B482B006EF465 /* LoginViewController.swift */; };
+		F4ADDDBA239B4B43006EF465 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDB9239B4B43006EF465 /* LoginProtocols.swift */; };
+		F4ADDDBC239BFD98006EF465 /* CadastroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDBB239BFD98006EF465 /* CadastroViewController.xib */; };
+		F4ADDDBE239C0096006EF465 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDBD239C0096006EF465 /* CadastroViewController.swift */; };
+		F4ADDDC0239C009F006EF465 /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDBF239C009F006EF465 /* CadastroView.swift */; };
+		F4ADDDC6239C0156006EF465 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDC5239C0156006EF465 /* WelcomeViewController.swift */; };
+		F4ADDDC8239C0168006EF465 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDC7239C0168006EF465 /* WelcomeView.swift */; };
+		F4ADDDCA239C0179006EF465 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDC9239C0179006EF465 /* WelcomeViewController.xib */; };
+		F4ADDDCE239C01D8006EF465 /* QuestaoUmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDCD239C01D8006EF465 /* QuestaoUmViewController.xib */; };
+		F4ADDDD0239C01EA006EF465 /* QuestaoUmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDCF239C01EA006EF465 /* QuestaoUmView.swift */; };
+		F4ADDDD2239C01FA006EF465 /* QuestaoUmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDD1239C01FA006EF465 /* QuestaoUmViewController.swift */; };
+		F4ADDDD6239C021A006EF465 /* QuestaoDoisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDD5239C021A006EF465 /* QuestaoDoisViewController.xib */; };
+		F4ADDDD8239C0227006EF465 /* QuestaoDoisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDD7239C0227006EF465 /* QuestaoDoisView.swift */; };
+		F4ADDDDA239C0230006EF465 /* QuestaoDoisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDD9239C0230006EF465 /* QuestaoDoisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +62,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F47F6CF0239C0F5C0001C0F9 /* QuestaoTresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoTresViewController.swift; sourceTree = "<group>"; };
+		F47F6CF2239C0F6B0001C0F9 /* QuestaoTresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoTresView.swift; sourceTree = "<group>"; };
+		F47F6CF4239C0F7B0001C0F9 /* QuestaoTresViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestaoTresViewController.xib; sourceTree = "<group>"; };
+		F47F6CF8239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPrimeiroAcessoViewController.swift; sourceTree = "<group>"; };
+		F47F6CFA239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPrimeiroAcessoView.swift; sourceTree = "<group>"; };
+		F47F6CFC239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalPrimeiroAcessoViewController.xib; sourceTree = "<group>"; };
+		F47F6CFE239C160E0001C0F9 /* CadastroProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroProtocols.swift; sourceTree = "<group>"; };
+		F47F6D01239C16870001C0F9 /* UserSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUp.swift; sourceTree = "<group>"; };
 		F4ADDD6B239AD4C6006EF465 /* EasyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4ADDD6E239AD4C6006EF465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4ADDD70239AD4C6006EF465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +86,23 @@
 		F4ADDDA5239AD706006EF465 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		F4ADDDA9239AD7FB006EF465 /* RouterBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterBase.swift; sourceTree = "<group>"; };
 		F4ADDDAF239B1A12006EF465 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		F4ADDDB1239B4068006EF465 /* IntroProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroProtocols.swift; sourceTree = "<group>"; };
+		F4ADDDB3239B42E8006EF465 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F4ADDDB5239B45AE006EF465 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F4ADDDB7239B482B006EF465 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F4ADDDB9239B4B43006EF465 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		F4ADDDBB239BFD98006EF465 /* CadastroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadastroViewController.xib; sourceTree = "<group>"; };
+		F4ADDDBD239C0096006EF465 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		F4ADDDBF239C009F006EF465 /* CadastroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
+		F4ADDDC5239C0156006EF465 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F4ADDDC7239C0168006EF465 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F4ADDDC9239C0179006EF465 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		F4ADDDCD239C01D8006EF465 /* QuestaoUmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestaoUmViewController.xib; sourceTree = "<group>"; };
+		F4ADDDCF239C01EA006EF465 /* QuestaoUmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoUmView.swift; sourceTree = "<group>"; };
+		F4ADDDD1239C01FA006EF465 /* QuestaoUmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoUmViewController.swift; sourceTree = "<group>"; };
+		F4ADDDD5239C021A006EF465 /* QuestaoDoisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestaoDoisViewController.xib; sourceTree = "<group>"; };
+		F4ADDDD7239C0227006EF465 /* QuestaoDoisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoDoisView.swift; sourceTree = "<group>"; };
+		F4ADDDD9239C0230006EF465 /* QuestaoDoisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoDoisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +130,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F47F6CEE239C0F1D0001C0F9 /* Stap3 */ = {
+			isa = PBXGroup;
+			children = (
+				F47F6CEF239C0F260001C0F9 /* View */,
+				F47F6CF0239C0F5C0001C0F9 /* QuestaoTresViewController.swift */,
+			);
+			path = Stap3;
+			sourceTree = "<group>";
+		};
+		F47F6CEF239C0F260001C0F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F47F6CF2239C0F6B0001C0F9 /* QuestaoTresView.swift */,
+				F47F6CF4239C0F7B0001C0F9 /* QuestaoTresViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F47F6CF6239C115D0001C0F9 /* FinalPrimeiroAcesso */ = {
+			isa = PBXGroup;
+			children = (
+				F47F6CF7239C116D0001C0F9 /* View */,
+				F47F6CF8239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift */,
+			);
+			path = FinalPrimeiroAcesso;
+			sourceTree = "<group>";
+		};
+		F47F6CF7239C116D0001C0F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F47F6CFA239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift */,
+				F47F6CFC239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F47F6D00239C166C0001C0F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F47F6D01239C16870001C0F9 /* UserSignUp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F4ADDD62239AD4C6006EF465 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +255,7 @@
 			children = (
 				F4ADDDA2239AD697006EF465 /* View */,
 				F4ADDDA5239AD706006EF465 /* IntroViewController.swift */,
+				F4ADDDB1239B4068006EF465 /* IntroProtocols.swift */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -185,6 +280,7 @@
 		F4ADDDA8239AD7DA006EF465 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F4ADDDC1239C00FD006EF465 /* Primeiro Acesso */,
 				F4ADDDAC239AF6DF006EF465 /* Cadastro */,
 				F4ADDDAB239AF6D7006EF465 /* Login */,
 				F4ADDDA1239AD683006EF465 /* Intro */,
@@ -196,6 +292,8 @@
 			isa = PBXGroup;
 			children = (
 				F4ADDDAD239AF6E8006EF465 /* View */,
+				F4ADDDB7239B482B006EF465 /* LoginViewController.swift */,
+				F4ADDDB9239B4B43006EF465 /* LoginProtocols.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -203,7 +301,10 @@
 		F4ADDDAC239AF6DF006EF465 /* Cadastro */ = {
 			isa = PBXGroup;
 			children = (
+				F47F6D00239C166C0001C0F9 /* Model */,
 				F4ADDDAE239AF6F1006EF465 /* View */,
+				F4ADDDBD239C0096006EF465 /* CadastroViewController.swift */,
+				F47F6CFE239C160E0001C0F9 /* CadastroProtocols.swift */,
 			);
 			path = Cadastro;
 			sourceTree = "<group>";
@@ -211,6 +312,8 @@
 		F4ADDDAD239AF6E8006EF465 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F4ADDDB3239B42E8006EF465 /* LoginViewController.xib */,
+				F4ADDDB5239B45AE006EF465 /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,6 +321,74 @@
 		F4ADDDAE239AF6F1006EF465 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F4ADDDBB239BFD98006EF465 /* CadastroViewController.xib */,
+				F4ADDDBF239C009F006EF465 /* CadastroView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4ADDDC1239C00FD006EF465 /* Primeiro Acesso */ = {
+			isa = PBXGroup;
+			children = (
+				F47F6CF6239C115D0001C0F9 /* FinalPrimeiroAcesso */,
+				F47F6CEE239C0F1D0001C0F9 /* Stap3 */,
+				F4ADDDD3239C0201006EF465 /* Stap2 */,
+				F4ADDDCB239C0195006EF465 /* Stap1 */,
+				F4ADDDC3239C012F006EF465 /* Welcome */,
+			);
+			path = "Primeiro Acesso";
+			sourceTree = "<group>";
+		};
+		F4ADDDC3239C012F006EF465 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				F4ADDDC4239C0146006EF465 /* View */,
+				F4ADDDC5239C0156006EF465 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		F4ADDDC4239C0146006EF465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4ADDDC9239C0179006EF465 /* WelcomeViewController.xib */,
+				F4ADDDC7239C0168006EF465 /* WelcomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4ADDDCB239C0195006EF465 /* Stap1 */ = {
+			isa = PBXGroup;
+			children = (
+				F4ADDDCC239C01C4006EF465 /* View */,
+				F4ADDDD1239C01FA006EF465 /* QuestaoUmViewController.swift */,
+			);
+			path = Stap1;
+			sourceTree = "<group>";
+		};
+		F4ADDDCC239C01C4006EF465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4ADDDCD239C01D8006EF465 /* QuestaoUmViewController.xib */,
+				F4ADDDCF239C01EA006EF465 /* QuestaoUmView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4ADDDD3239C0201006EF465 /* Stap2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4ADDDD4239C0209006EF465 /* View */,
+				F4ADDDD9239C0230006EF465 /* QuestaoDoisViewController.swift */,
+			);
+			path = Stap2;
+			sourceTree = "<group>";
+		};
+		F4ADDDD4239C0209006EF465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4ADDDD5239C021A006EF465 /* QuestaoDoisViewController.xib */,
+				F4ADDDD7239C0227006EF465 /* QuestaoDoisView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,9 +497,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47F6CFD239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib in Resources */,
+				F4ADDDB4239B42E8006EF465 /* LoginViewController.xib in Resources */,
+				F47F6CF5239C0F7B0001C0F9 /* QuestaoTresViewController.xib in Resources */,
 				F4ADDD7B239AD4CB006EF465 /* LaunchScreen.storyboard in Resources */,
 				F4ADDD78239AD4CB006EF465 /* Assets.xcassets in Resources */,
 				F4ADDDA4239AD6D9006EF465 /* IntroViewController.xib in Resources */,
+				F4ADDDCA239C0179006EF465 /* WelcomeViewController.xib in Resources */,
+				F4ADDDBC239BFD98006EF465 /* CadastroViewController.xib in Resources */,
+				F4ADDDD6239C021A006EF465 /* QuestaoDoisViewController.xib in Resources */,
+				F4ADDDCE239C01D8006EF465 /* QuestaoUmViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,10 +531,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4ADDDBA239B4B43006EF465 /* LoginProtocols.swift in Sources */,
+				F4ADDDB2239B4068006EF465 /* IntroProtocols.swift in Sources */,
+				F47F6CFB239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift in Sources */,
+				F4ADDDC6239C0156006EF465 /* WelcomeViewController.swift in Sources */,
+				F4ADDDD2239C01FA006EF465 /* QuestaoUmViewController.swift in Sources */,
+				F4ADDDB6239B45AE006EF465 /* LoginView.swift in Sources */,
+				F4ADDDBE239C0096006EF465 /* CadastroViewController.swift in Sources */,
 				F4ADDDAA239AD7FB006EF465 /* RouterBase.swift in Sources */,
 				F4ADDD6F239AD4C6006EF465 /* AppDelegate.swift in Sources */,
+				F4ADDDB8239B482B006EF465 /* LoginViewController.swift in Sources */,
 				F4ADDDB0239B1A12006EF465 /* IntroView.swift in Sources */,
+				F4ADDDD0239C01EA006EF465 /* QuestaoUmView.swift in Sources */,
 				F4ADDD71239AD4C6006EF465 /* SceneDelegate.swift in Sources */,
+				F47F6CF9239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift in Sources */,
+				F4ADDDD8239C0227006EF465 /* QuestaoDoisView.swift in Sources */,
+				F47F6CF1239C0F5C0001C0F9 /* QuestaoTresViewController.swift in Sources */,
+				F47F6CF3239C0F6B0001C0F9 /* QuestaoTresView.swift in Sources */,
+				F4ADDDDA239C0230006EF465 /* QuestaoDoisViewController.swift in Sources */,
+				F47F6CFF239C160E0001C0F9 /* CadastroProtocols.swift in Sources */,
+				F47F6D02239C16870001C0F9 /* UserSignUp.swift in Sources */,
+				F4ADDDC8239C0168006EF465 /* WelcomeView.swift in Sources */,
+				F4ADDDC0239C009F006EF465 /* CadastroView.swift in Sources */,
 				F4ADDDA6239AD706006EF465 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CadastroViewController" customModule="EasyFood" customModuleProvider="target">
+            <connections>
+                <outlet property="uiCadastro" destination="iN0-l3-epB" id="OTa-pP-hfK"/>
+                <outlet property="view" destination="iN0-l3-epB" id="vYR-If-x0E"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CadastroView" customModule="EasyFood" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper1" translatesAutoresizingMaskIntoConstraints="NO" id="lHO-Pr-ASD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadastre-se" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4FC-WL-RZD">
+                    <rect key="frame" x="30" y="100" width="315" height="54"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Torne suas escolhas mais fácil, crie uma conta na Easy Food" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GqW-hE-bHT">
+                    <rect key="frame" x="30" y="164" width="315" height="40"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome Completo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g1f-Ll-jU4">
+                    <rect key="frame" x="20" y="254" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="tQ1-ti-2Iy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail de cadastro" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="icf-Kz-eAh">
+                    <rect key="frame" x="20" y="334" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Qi3-mV-RDz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2cB-QW-uvx">
+                    <rect key="frame" x="20" y="414" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="GKU-Kt-SAr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsc-si-Wbx">
+                    <rect key="frame" x="40" y="601" width="295" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.50980392159999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="31K-9S-liV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <state key="normal" title="CADASTRE-SE">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="btnSignUp:" destination="iN0-l3-epB" eventType="touchUpInside" id="LQq-Ji-jgd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4FC-WL-RZD" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="3Dr-kC-OGJ"/>
+                <constraint firstItem="2cB-QW-uvx" firstAttribute="top" secondItem="icf-Kz-eAh" secondAttribute="bottom" constant="30" id="4ZE-UW-ZD6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2cB-QW-uvx" secondAttribute="trailing" constant="20" id="7C5-Vf-OVH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="icf-Kz-eAh" secondAttribute="trailing" constant="20" id="9hp-mW-7Vs"/>
+                <constraint firstItem="lHO-Pr-ASD" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Bhp-xG-0wc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="lHO-Pr-ASD" secondAttribute="bottom" id="CaD-xt-sJI"/>
+                <constraint firstItem="g1f-Ll-jU4" firstAttribute="top" secondItem="GqW-hE-bHT" secondAttribute="bottom" constant="50" id="Ema-Or-FXe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Qsc-si-Wbx" secondAttribute="trailing" constant="40" id="GV8-B8-YKF"/>
+                <constraint firstItem="Qsc-si-Wbx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="Hst-kz-nZP"/>
+                <constraint firstItem="g1f-Ll-jU4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="IYE-2H-uTh"/>
+                <constraint firstItem="4FC-WL-RZD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="JD5-Jl-mrG"/>
+                <constraint firstAttribute="trailing" secondItem="GqW-hE-bHT" secondAttribute="trailing" constant="30" id="Nap-Zd-ggr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lHO-Pr-ASD" secondAttribute="trailing" id="WVw-wN-fUx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="g1f-Ll-jU4" secondAttribute="trailing" constant="20" id="Xva-ye-aya"/>
+                <constraint firstItem="GqW-hE-bHT" firstAttribute="top" secondItem="4FC-WL-RZD" secondAttribute="bottom" constant="10" id="ZKA-ks-tBy"/>
+                <constraint firstItem="GqW-hE-bHT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="dTL-pS-LYg"/>
+                <constraint firstItem="lHO-Pr-ASD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="esT-fN-ubd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4FC-WL-RZD" secondAttribute="trailing" constant="30" id="hnR-HY-Kxy"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Qsc-si-Wbx" secondAttribute="bottom" constant="16" id="niv-OT-OBG"/>
+                <constraint firstItem="icf-Kz-eAh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="ogR-js-EGb"/>
+                <constraint firstItem="icf-Kz-eAh" firstAttribute="top" secondItem="g1f-Ll-jU4" secondAttribute="bottom" constant="30" id="x1q-TO-nGH"/>
+                <constraint firstItem="2cB-QW-uvx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="xgA-PX-b9t"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="textFieldEmail" destination="icf-Kz-eAh" id="KJX-qB-s4X"/>
+                <outlet property="textFieldName" destination="g1f-Ll-jU4" id="iZB-eK-NS5"/>
+                <outlet property="textFieldPassword" destination="2cB-QW-uvx" id="2v9-WD-YVj"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="108"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="wallpaper1" width="900" height="1659"/>
+    </resources>
+</document>

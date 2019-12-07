@@ -9,8 +9,18 @@
 import Foundation
 import UIKit
 
-class IntroView: UIView {
+
+
+class IntroView: UIView, IntroViewProtocolType {
     
+    weak var controller: IntroViewDelegate?
     
+    @IBAction func btnSignIn(_ sender: UIButton) {
+        controller?.buttonLogin()
+    }
+    
+    @IBAction func btnSignUp(_ sender: UIButton) {
+        controller?.buttonCadastro()
+    }
     
 }
