@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F47F6CF1239C0F5C0001C0F9 /* QuestaoTresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CF0239C0F5C0001C0F9 /* QuestaoTresViewController.swift */; };
-		F47F6CF3239C0F6B0001C0F9 /* QuestaoTresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CF2239C0F6B0001C0F9 /* QuestaoTresView.swift */; };
-		F47F6CF5239C0F7B0001C0F9 /* QuestaoTresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47F6CF4239C0F7B0001C0F9 /* QuestaoTresViewController.xib */; };
-		F47F6CF9239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CF8239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift */; };
-		F47F6CFB239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CFA239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift */; };
-		F47F6CFD239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47F6CFC239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib */; };
+		F47F6CF1239C0F5C0001C0F9 /* AveragePriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CF0239C0F5C0001C0F9 /* AveragePriceViewController.swift */; };
+		F47F6CF3239C0F6B0001C0F9 /* AveragePriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CF2239C0F6B0001C0F9 /* AveragePriceView.swift */; };
+		F47F6CF5239C0F7B0001C0F9 /* AveragePriceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47F6CF4239C0F7B0001C0F9 /* AveragePriceViewController.xib */; };
+		F47F6CF9239C119E0001C0F9 /* FinalFirstAccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CF8239C119E0001C0F9 /* FinalFirstAccessViewController.swift */; };
+		F47F6CFB239C11A70001C0F9 /* FinalFirstAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CFA239C11A70001C0F9 /* FinalFirstAccessView.swift */; };
+		F47F6CFD239C11AF0001C0F9 /* FinalFirstAccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47F6CFC239C11AF0001C0F9 /* FinalFirstAccessViewController.xib */; };
 		F47F6CFF239C160E0001C0F9 /* CadastroProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CFE239C160E0001C0F9 /* CadastroProtocols.swift */; };
 		F47F6D02239C16870001C0F9 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6D01239C16870001C0F9 /* UserSignUp.swift */; };
 		F4ADDD6F239AD4C6006EF465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDD6E239AD4C6006EF465 /* AppDelegate.swift */; };
@@ -36,12 +36,21 @@
 		F4ADDDC6239C0156006EF465 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDC5239C0156006EF465 /* WelcomeViewController.swift */; };
 		F4ADDDC8239C0168006EF465 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDC7239C0168006EF465 /* WelcomeView.swift */; };
 		F4ADDDCA239C0179006EF465 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDC9239C0179006EF465 /* WelcomeViewController.xib */; };
-		F4ADDDCE239C01D8006EF465 /* QuestaoUmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDCD239C01D8006EF465 /* QuestaoUmViewController.xib */; };
-		F4ADDDD0239C01EA006EF465 /* QuestaoUmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDCF239C01EA006EF465 /* QuestaoUmView.swift */; };
-		F4ADDDD2239C01FA006EF465 /* QuestaoUmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDD1239C01FA006EF465 /* QuestaoUmViewController.swift */; };
-		F4ADDDD6239C021A006EF465 /* QuestaoDoisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDD5239C021A006EF465 /* QuestaoDoisViewController.xib */; };
-		F4ADDDD8239C0227006EF465 /* QuestaoDoisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDD7239C0227006EF465 /* QuestaoDoisView.swift */; };
-		F4ADDDDA239C0230006EF465 /* QuestaoDoisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDD9239C0230006EF465 /* QuestaoDoisViewController.swift */; };
+		F4ADDDCE239C01D8006EF465 /* FavoriteFoodsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDCD239C01D8006EF465 /* FavoriteFoodsViewController.xib */; };
+		F4ADDDD0239C01EA006EF465 /* FavoriteFoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDCF239C01EA006EF465 /* FavoriteFoodsView.swift */; };
+		F4ADDDD2239C01FA006EF465 /* FavoriteFoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDD1239C01FA006EF465 /* FavoriteFoodsViewController.swift */; };
+		F4ADDDD6239C021A006EF465 /* RestractionFoodsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDDD5239C021A006EF465 /* RestractionFoodsViewController.xib */; };
+		F4ADDDD8239C0227006EF465 /* RestractionFoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDD7239C0227006EF465 /* RestractionFoodsView.swift */; };
+		F4ADDDDA239C0230006EF465 /* RestractionFoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDDD9239C0230006EF465 /* RestractionFoodsViewController.swift */; };
+		F4CB373D239C46C30093041A /* RouterFirstAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB373C239C46C30093041A /* RouterFirstAccess.swift */; };
+		F4CB374B239C59670093041A /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB374A239C59670093041A /* RouterProtocol.swift */; };
+		F4CB374D239C5ECC0093041A /* NavigationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB374C239C5ECC0093041A /* NavigationType.swift */; };
+		F4CB374F239C655F0093041A /* WelcomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB374E239C655F0093041A /* WelcomeProtocols.swift */; };
+		F4CB3754239C6B8E0093041A /* OptionsFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB3753239C6B8E0093041A /* OptionsFood.swift */; };
+		F4CB3756239C6D930093041A /* FavoriteFoodsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB3755239C6D930093041A /* FavoriteFoodsProtocols.swift */; };
+		F4CB3758239C71530093041A /* RestractionFoodsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB3757239C71530093041A /* RestractionFoodsProtocols.swift */; };
+		F4CB375A239C72820093041A /* AveragePriceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB3759239C72820093041A /* AveragePriceProtocols.swift */; };
+		F4CB375C239C74330093041A /* FinalFirstAccessProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB375B239C74330093041A /* FinalFirstAccessProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,12 +71,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F47F6CF0239C0F5C0001C0F9 /* QuestaoTresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoTresViewController.swift; sourceTree = "<group>"; };
-		F47F6CF2239C0F6B0001C0F9 /* QuestaoTresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoTresView.swift; sourceTree = "<group>"; };
-		F47F6CF4239C0F7B0001C0F9 /* QuestaoTresViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestaoTresViewController.xib; sourceTree = "<group>"; };
-		F47F6CF8239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPrimeiroAcessoViewController.swift; sourceTree = "<group>"; };
-		F47F6CFA239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPrimeiroAcessoView.swift; sourceTree = "<group>"; };
-		F47F6CFC239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalPrimeiroAcessoViewController.xib; sourceTree = "<group>"; };
+		F47F6CF0239C0F5C0001C0F9 /* AveragePriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AveragePriceViewController.swift; sourceTree = "<group>"; };
+		F47F6CF2239C0F6B0001C0F9 /* AveragePriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AveragePriceView.swift; sourceTree = "<group>"; };
+		F47F6CF4239C0F7B0001C0F9 /* AveragePriceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AveragePriceViewController.xib; sourceTree = "<group>"; };
+		F47F6CF8239C119E0001C0F9 /* FinalFirstAccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalFirstAccessViewController.swift; sourceTree = "<group>"; };
+		F47F6CFA239C11A70001C0F9 /* FinalFirstAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalFirstAccessView.swift; sourceTree = "<group>"; };
+		F47F6CFC239C11AF0001C0F9 /* FinalFirstAccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalFirstAccessViewController.xib; sourceTree = "<group>"; };
 		F47F6CFE239C160E0001C0F9 /* CadastroProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroProtocols.swift; sourceTree = "<group>"; };
 		F47F6D01239C16870001C0F9 /* UserSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUp.swift; sourceTree = "<group>"; };
 		F4ADDD6B239AD4C6006EF465 /* EasyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,12 +106,21 @@
 		F4ADDDC5239C0156006EF465 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		F4ADDDC7239C0168006EF465 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		F4ADDDC9239C0179006EF465 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
-		F4ADDDCD239C01D8006EF465 /* QuestaoUmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestaoUmViewController.xib; sourceTree = "<group>"; };
-		F4ADDDCF239C01EA006EF465 /* QuestaoUmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoUmView.swift; sourceTree = "<group>"; };
-		F4ADDDD1239C01FA006EF465 /* QuestaoUmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoUmViewController.swift; sourceTree = "<group>"; };
-		F4ADDDD5239C021A006EF465 /* QuestaoDoisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestaoDoisViewController.xib; sourceTree = "<group>"; };
-		F4ADDDD7239C0227006EF465 /* QuestaoDoisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoDoisView.swift; sourceTree = "<group>"; };
-		F4ADDDD9239C0230006EF465 /* QuestaoDoisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoDoisViewController.swift; sourceTree = "<group>"; };
+		F4ADDDCD239C01D8006EF465 /* FavoriteFoodsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteFoodsViewController.xib; sourceTree = "<group>"; };
+		F4ADDDCF239C01EA006EF465 /* FavoriteFoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFoodsView.swift; sourceTree = "<group>"; };
+		F4ADDDD1239C01FA006EF465 /* FavoriteFoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFoodsViewController.swift; sourceTree = "<group>"; };
+		F4ADDDD5239C021A006EF465 /* RestractionFoodsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestractionFoodsViewController.xib; sourceTree = "<group>"; };
+		F4ADDDD7239C0227006EF465 /* RestractionFoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestractionFoodsView.swift; sourceTree = "<group>"; };
+		F4ADDDD9239C0230006EF465 /* RestractionFoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestractionFoodsViewController.swift; sourceTree = "<group>"; };
+		F4CB373C239C46C30093041A /* RouterFirstAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterFirstAccess.swift; sourceTree = "<group>"; };
+		F4CB374A239C59670093041A /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		F4CB374C239C5ECC0093041A /* NavigationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationType.swift; sourceTree = "<group>"; };
+		F4CB374E239C655F0093041A /* WelcomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeProtocols.swift; sourceTree = "<group>"; };
+		F4CB3753239C6B8E0093041A /* OptionsFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsFood.swift; sourceTree = "<group>"; };
+		F4CB3755239C6D930093041A /* FavoriteFoodsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFoodsProtocols.swift; sourceTree = "<group>"; };
+		F4CB3757239C71530093041A /* RestractionFoodsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestractionFoodsProtocols.swift; sourceTree = "<group>"; };
+		F4CB3759239C72820093041A /* AveragePriceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AveragePriceProtocols.swift; sourceTree = "<group>"; };
+		F4CB375B239C74330093041A /* FinalFirstAccessProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalFirstAccessProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				F47F6CEF239C0F260001C0F9 /* View */,
-				F47F6CF0239C0F5C0001C0F9 /* QuestaoTresViewController.swift */,
+				F47F6CF0239C0F5C0001C0F9 /* AveragePriceViewController.swift */,
+				F4CB3759239C72820093041A /* AveragePriceProtocols.swift */,
 			);
 			path = Stap3;
 			sourceTree = "<group>";
@@ -142,26 +161,27 @@
 		F47F6CEF239C0F260001C0F9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F47F6CF2239C0F6B0001C0F9 /* QuestaoTresView.swift */,
-				F47F6CF4239C0F7B0001C0F9 /* QuestaoTresViewController.xib */,
+				F47F6CF2239C0F6B0001C0F9 /* AveragePriceView.swift */,
+				F47F6CF4239C0F7B0001C0F9 /* AveragePriceViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		F47F6CF6239C115D0001C0F9 /* FinalPrimeiroAcesso */ = {
+		F47F6CF6239C115D0001C0F9 /* FinalFirstAccess */ = {
 			isa = PBXGroup;
 			children = (
 				F47F6CF7239C116D0001C0F9 /* View */,
-				F47F6CF8239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift */,
+				F47F6CF8239C119E0001C0F9 /* FinalFirstAccessViewController.swift */,
+				F4CB375B239C74330093041A /* FinalFirstAccessProtocols.swift */,
 			);
-			path = FinalPrimeiroAcesso;
+			path = FinalFirstAccess;
 			sourceTree = "<group>";
 		};
 		F47F6CF7239C116D0001C0F9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F47F6CFA239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift */,
-				F47F6CFC239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib */,
+				F47F6CFA239C11A70001C0F9 /* FinalFirstAccessView.swift */,
+				F47F6CFC239C11AF0001C0F9 /* FinalFirstAccessViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -237,7 +257,8 @@
 		F4ADDD9F239AD4FC006EF465 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				F4ADDDA7239AD7C8006EF465 /* Root */,
+				F4CB3751239C6B4B0093041A /* Models */,
+				F4ADDDA7239AD7C8006EF465 /* Router */,
 				F4ADDDA8239AD7DA006EF465 /* Scenes */,
 			);
 			path = Project;
@@ -269,36 +290,38 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		F4ADDDA7239AD7C8006EF465 /* Root */ = {
+		F4ADDDA7239AD7C8006EF465 /* Router */ = {
 			isa = PBXGroup;
 			children = (
 				F4ADDDA9239AD7FB006EF465 /* RouterBase.swift */,
+				F4CB374A239C59670093041A /* RouterProtocol.swift */,
+				F4CB374C239C5ECC0093041A /* NavigationType.swift */,
 			);
-			path = Root;
+			path = Router;
 			sourceTree = "<group>";
 		};
 		F4ADDDA8239AD7DA006EF465 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				F4ADDDC1239C00FD006EF465 /* Primeiro Acesso */,
-				F4ADDDAC239AF6DF006EF465 /* Cadastro */,
-				F4ADDDAB239AF6D7006EF465 /* Login */,
+				F4ADDDC1239C00FD006EF465 /* First Access */,
+				F4ADDDAC239AF6DF006EF465 /* SignUp */,
+				F4ADDDAB239AF6D7006EF465 /* SignIn */,
 				F4ADDDA1239AD683006EF465 /* Intro */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		F4ADDDAB239AF6D7006EF465 /* Login */ = {
+		F4ADDDAB239AF6D7006EF465 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
 				F4ADDDAD239AF6E8006EF465 /* View */,
 				F4ADDDB7239B482B006EF465 /* LoginViewController.swift */,
 				F4ADDDB9239B4B43006EF465 /* LoginProtocols.swift */,
 			);
-			path = Login;
+			path = SignIn;
 			sourceTree = "<group>";
 		};
-		F4ADDDAC239AF6DF006EF465 /* Cadastro */ = {
+		F4ADDDAC239AF6DF006EF465 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
 				F47F6D00239C166C0001C0F9 /* Model */,
@@ -306,7 +329,7 @@
 				F4ADDDBD239C0096006EF465 /* CadastroViewController.swift */,
 				F47F6CFE239C160E0001C0F9 /* CadastroProtocols.swift */,
 			);
-			path = Cadastro;
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		F4ADDDAD239AF6E8006EF465 /* View */ = {
@@ -327,16 +350,17 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		F4ADDDC1239C00FD006EF465 /* Primeiro Acesso */ = {
+		F4ADDDC1239C00FD006EF465 /* First Access */ = {
 			isa = PBXGroup;
 			children = (
-				F47F6CF6239C115D0001C0F9 /* FinalPrimeiroAcesso */,
+				F47F6CF6239C115D0001C0F9 /* FinalFirstAccess */,
 				F47F6CEE239C0F1D0001C0F9 /* Stap3 */,
 				F4ADDDD3239C0201006EF465 /* Stap2 */,
 				F4ADDDCB239C0195006EF465 /* Stap1 */,
 				F4ADDDC3239C012F006EF465 /* Welcome */,
+				F4CB373C239C46C30093041A /* RouterFirstAccess.swift */,
 			);
-			path = "Primeiro Acesso";
+			path = "First Access";
 			sourceTree = "<group>";
 		};
 		F4ADDDC3239C012F006EF465 /* Welcome */ = {
@@ -344,6 +368,7 @@
 			children = (
 				F4ADDDC4239C0146006EF465 /* View */,
 				F4ADDDC5239C0156006EF465 /* WelcomeViewController.swift */,
+				F4CB374E239C655F0093041A /* WelcomeProtocols.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -361,7 +386,8 @@
 			isa = PBXGroup;
 			children = (
 				F4ADDDCC239C01C4006EF465 /* View */,
-				F4ADDDD1239C01FA006EF465 /* QuestaoUmViewController.swift */,
+				F4ADDDD1239C01FA006EF465 /* FavoriteFoodsViewController.swift */,
+				F4CB3755239C6D930093041A /* FavoriteFoodsProtocols.swift */,
 			);
 			path = Stap1;
 			sourceTree = "<group>";
@@ -369,8 +395,8 @@
 		F4ADDDCC239C01C4006EF465 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F4ADDDCD239C01D8006EF465 /* QuestaoUmViewController.xib */,
-				F4ADDDCF239C01EA006EF465 /* QuestaoUmView.swift */,
+				F4ADDDCD239C01D8006EF465 /* FavoriteFoodsViewController.xib */,
+				F4ADDDCF239C01EA006EF465 /* FavoriteFoodsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -379,7 +405,8 @@
 			isa = PBXGroup;
 			children = (
 				F4ADDDD4239C0209006EF465 /* View */,
-				F4ADDDD9239C0230006EF465 /* QuestaoDoisViewController.swift */,
+				F4ADDDD9239C0230006EF465 /* RestractionFoodsViewController.swift */,
+				F4CB3757239C71530093041A /* RestractionFoodsProtocols.swift */,
 			);
 			path = Stap2;
 			sourceTree = "<group>";
@@ -387,10 +414,26 @@
 		F4ADDDD4239C0209006EF465 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F4ADDDD5239C021A006EF465 /* QuestaoDoisViewController.xib */,
-				F4ADDDD7239C0227006EF465 /* QuestaoDoisView.swift */,
+				F4ADDDD5239C021A006EF465 /* RestractionFoodsViewController.xib */,
+				F4ADDDD7239C0227006EF465 /* RestractionFoodsView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F4CB3751239C6B4B0093041A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB3752239C6B540093041A /* ModelRequests */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4CB3752239C6B540093041A /* ModelRequests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB3753239C6B8E0093041A /* OptionsFood.swift */,
+			);
+			path = ModelRequests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -497,16 +540,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F47F6CFD239C11AF0001C0F9 /* FinalPrimeiroAcessoViewController.xib in Resources */,
+				F47F6CFD239C11AF0001C0F9 /* FinalFirstAccessViewController.xib in Resources */,
 				F4ADDDB4239B42E8006EF465 /* LoginViewController.xib in Resources */,
-				F47F6CF5239C0F7B0001C0F9 /* QuestaoTresViewController.xib in Resources */,
+				F47F6CF5239C0F7B0001C0F9 /* AveragePriceViewController.xib in Resources */,
 				F4ADDD7B239AD4CB006EF465 /* LaunchScreen.storyboard in Resources */,
 				F4ADDD78239AD4CB006EF465 /* Assets.xcassets in Resources */,
 				F4ADDDA4239AD6D9006EF465 /* IntroViewController.xib in Resources */,
 				F4ADDDCA239C0179006EF465 /* WelcomeViewController.xib in Resources */,
 				F4ADDDBC239BFD98006EF465 /* CadastroViewController.xib in Resources */,
-				F4ADDDD6239C021A006EF465 /* QuestaoDoisViewController.xib in Resources */,
-				F4ADDDCE239C01D8006EF465 /* QuestaoUmViewController.xib in Resources */,
+				F4ADDDD6239C021A006EF465 /* RestractionFoodsViewController.xib in Resources */,
+				F4ADDDCE239C01D8006EF465 /* FavoriteFoodsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,22 +576,31 @@
 			files = (
 				F4ADDDBA239B4B43006EF465 /* LoginProtocols.swift in Sources */,
 				F4ADDDB2239B4068006EF465 /* IntroProtocols.swift in Sources */,
-				F47F6CFB239C11A70001C0F9 /* FinalPrimeiroAcessoView.swift in Sources */,
+				F47F6CFB239C11A70001C0F9 /* FinalFirstAccessView.swift in Sources */,
+				F4CB375C239C74330093041A /* FinalFirstAccessProtocols.swift in Sources */,
 				F4ADDDC6239C0156006EF465 /* WelcomeViewController.swift in Sources */,
-				F4ADDDD2239C01FA006EF465 /* QuestaoUmViewController.swift in Sources */,
+				F4ADDDD2239C01FA006EF465 /* FavoriteFoodsViewController.swift in Sources */,
+				F4CB375A239C72820093041A /* AveragePriceProtocols.swift in Sources */,
+				F4CB373D239C46C30093041A /* RouterFirstAccess.swift in Sources */,
 				F4ADDDB6239B45AE006EF465 /* LoginView.swift in Sources */,
+				F4CB374B239C59670093041A /* RouterProtocol.swift in Sources */,
+				F4CB3758239C71530093041A /* RestractionFoodsProtocols.swift in Sources */,
+				F4CB3754239C6B8E0093041A /* OptionsFood.swift in Sources */,
 				F4ADDDBE239C0096006EF465 /* CadastroViewController.swift in Sources */,
 				F4ADDDAA239AD7FB006EF465 /* RouterBase.swift in Sources */,
 				F4ADDD6F239AD4C6006EF465 /* AppDelegate.swift in Sources */,
 				F4ADDDB8239B482B006EF465 /* LoginViewController.swift in Sources */,
 				F4ADDDB0239B1A12006EF465 /* IntroView.swift in Sources */,
-				F4ADDDD0239C01EA006EF465 /* QuestaoUmView.swift in Sources */,
+				F4CB374D239C5ECC0093041A /* NavigationType.swift in Sources */,
+				F4CB3756239C6D930093041A /* FavoriteFoodsProtocols.swift in Sources */,
+				F4ADDDD0239C01EA006EF465 /* FavoriteFoodsView.swift in Sources */,
 				F4ADDD71239AD4C6006EF465 /* SceneDelegate.swift in Sources */,
-				F47F6CF9239C119E0001C0F9 /* FinalPrimeiroAcessoViewController.swift in Sources */,
-				F4ADDDD8239C0227006EF465 /* QuestaoDoisView.swift in Sources */,
-				F47F6CF1239C0F5C0001C0F9 /* QuestaoTresViewController.swift in Sources */,
-				F47F6CF3239C0F6B0001C0F9 /* QuestaoTresView.swift in Sources */,
-				F4ADDDDA239C0230006EF465 /* QuestaoDoisViewController.swift in Sources */,
+				F47F6CF9239C119E0001C0F9 /* FinalFirstAccessViewController.swift in Sources */,
+				F4ADDDD8239C0227006EF465 /* RestractionFoodsView.swift in Sources */,
+				F4CB374F239C655F0093041A /* WelcomeProtocols.swift in Sources */,
+				F47F6CF1239C0F5C0001C0F9 /* AveragePriceViewController.swift in Sources */,
+				F47F6CF3239C0F6B0001C0F9 /* AveragePriceView.swift in Sources */,
+				F4ADDDDA239C0230006EF465 /* RestractionFoodsViewController.swift in Sources */,
 				F47F6CFF239C160E0001C0F9 /* CadastroProtocols.swift in Sources */,
 				F47F6D02239C16870001C0F9 /* UserSignUp.swift in Sources */,
 				F4ADDDC8239C0168006EF465 /* WelcomeView.swift in Sources */,
