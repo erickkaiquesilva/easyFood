@@ -9,8 +9,15 @@
 import UIKit
 
 class AveragePriceView: UIView, AveragePriceViewProtocolType {
+    
     var controller: AveragePriceViewDelegate?
     
+    @IBOutlet weak var btnContinue: CustomButton!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        btnContinue.customSetup()
+    }
     
     @IBAction func btnContinue(_ sender: UIButton) {
         controller?.wanstToConinue()

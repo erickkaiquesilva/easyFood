@@ -16,7 +16,12 @@ class CadastroView: UIView, CadastroViewProtocolType {
     @IBOutlet weak var textFieldName: UITextField!
     @IBOutlet weak var textFieldEmail: UITextField!
     @IBOutlet weak var textFieldPassword: UITextField!
+    @IBOutlet weak var btnSignUp: CustomButton!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        btnSignUp.customSetup()
+    }
     
     @IBAction func btnSignUp(_ sender: UIButton) {
         controller?.dataUser(user: bindDataUser())

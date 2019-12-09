@@ -84,7 +84,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJs-0h-rUg">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJs-0h-rUg" customClass="CustomButton" customModule="EasyFood" customModuleProvider="target">
                     <rect key="frame" x="40" y="601" width="295" height="50"/>
                     <color key="backgroundColor" red="1" green="0.50980392159999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
@@ -133,6 +133,9 @@
                 <constraint firstItem="ZET-gw-Zuy" firstAttribute="leading" secondItem="dQM-vd-TsG" secondAttribute="trailing" constant="10" id="ztN-h1-n9J"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnContinue" destination="hJs-0h-rUg" id="PSv-k2-CRP"/>
+            </connections>
             <point key="canvasLocation" x="139" y="108"/>
         </view>
     </objects>

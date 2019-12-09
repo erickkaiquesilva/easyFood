@@ -57,7 +57,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsc-si-Wbx">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsc-si-Wbx" customClass="CustomButton" customModule="EasyFood" customModuleProvider="target">
                     <rect key="frame" x="40" y="601" width="295" height="50"/>
                     <color key="backgroundColor" red="1" green="0.50980392159999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
@@ -99,6 +99,7 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="btnSignUp" destination="Qsc-si-Wbx" id="HG6-26-eiE"/>
                 <outlet property="textFieldEmail" destination="icf-Kz-eAh" id="KJX-qB-s4X"/>
                 <outlet property="textFieldName" destination="g1f-Ll-jU4" id="iZB-eK-NS5"/>
                 <outlet property="textFieldPassword" destination="2cB-QW-uvx" id="2v9-WD-YVj"/>

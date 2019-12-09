@@ -12,6 +12,13 @@ import UIKit
 class FavoriteFoodsView: UIView, FavoriteFoodProtocolType {
     
     weak var controller: FavoriteFoodsViewDelegate?
+    @IBOutlet weak var btnContinue: CustomButton!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        btnContinue.customSetup()
+        // Initialization code
+    }
     
     var optionsFood: [Bool] = []
     

@@ -12,6 +12,12 @@ class FinalFirstAccessView: UIView, FinalFirstAccessViewProtocolType {
     
     var controller: FinalFirstAccessViewDelegate?
     
+    @IBOutlet weak var btnFinish: CustomButton!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        btnFinish.customSetup()
+    }
     
     @IBAction func btnFinish(_ sender: UIButton) {
         controller?.wantsToFinish()

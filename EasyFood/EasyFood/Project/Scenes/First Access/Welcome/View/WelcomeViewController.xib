@@ -41,7 +41,7 @@ e rápidas, é só para lher proporciona uma melhor experiencia no nosso app.</s
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFC-E9-0rt">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFC-E9-0rt" customClass="CustomButton" customModule="EasyFood" customModuleProvider="target">
                     <rect key="frame" x="40" y="601" width="295" height="50"/>
                     <color key="backgroundColor" red="1" green="0.50980392159999999" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
@@ -77,6 +77,7 @@ e rápidas, é só para lher proporciona uma melhor experiencia no nosso app.</s
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="btnBegin" destination="yFC-E9-0rt" id="IKt-wJ-sWq"/>
                 <outlet property="labelNameUser" destination="acl-hA-QNb" id="dWL-oh-Q4E"/>
             </connections>
             <point key="canvasLocation" x="139" y="108"/>

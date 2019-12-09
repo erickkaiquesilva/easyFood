@@ -12,6 +12,13 @@ class RestractionFoodsView: UIView, RestractionFoodsProtcolType {
     
     weak var controller: RestractionFoodsViewDelegate?
     
+    @IBOutlet weak var btnContinue: CustomButton!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        btnContinue.customSetup()
+    }
+    
     @IBAction func btnContinue(_ sender: Any) {
         controller?.wantsToContinue()
     }

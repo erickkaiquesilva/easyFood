@@ -13,7 +13,12 @@ class WelcomeView: UIView, WelcomeViewProtocolType {
     weak var controller: WelcomeViewDelegate?
     
     @IBOutlet weak var labelNameUser: UILabel!
+    @IBOutlet weak var btnBegin: CustomButton!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        btnBegin.customSetup()
+    }
     
     func setupView(user: UserSignUp?) {
         

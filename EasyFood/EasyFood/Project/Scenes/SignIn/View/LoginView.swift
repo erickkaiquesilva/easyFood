@@ -17,8 +17,9 @@ class LoginView: UIView, LoginViewProtocolType {
     @IBOutlet weak var btnSignIn: CustomButton!
     
     
-    override class func awakeFromNib() {
+    override func awakeFromNib() {
         super.awakeFromNib()
+        btnSignIn.customSetup()
     }
     
     @IBAction func btnSignIn(_ sender: UIButton) {
