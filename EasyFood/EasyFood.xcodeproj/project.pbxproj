@@ -15,6 +15,13 @@
 		F47F6CFD239C11AF0001C0F9 /* FinalFirstAccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47F6CFC239C11AF0001C0F9 /* FinalFirstAccessViewController.xib */; };
 		F47F6CFF239C160E0001C0F9 /* CadastroProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6CFE239C160E0001C0F9 /* CadastroProtocols.swift */; };
 		F47F6D02239C16870001C0F9 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F6D01239C16870001C0F9 /* UserSignUp.swift */; };
+		F49739E8239DB1DF00B6DBA9 /* RestaurantListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49739E7239DB1DF00B6DBA9 /* RestaurantListViewController.xib */; };
+		F49739EA239E9A2B00B6DBA9 /* RestaurantOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49739E9239E9A2B00B6DBA9 /* RestaurantOptionCell.xib */; };
+		F49739EC239EA1B800B6DBA9 /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49739EB239EA1B800B6DBA9 /* RestaurantListViewController.swift */; };
+		F49739EE239EA78600B6DBA9 /* RestaurantListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49739ED239EA78600B6DBA9 /* RestaurantListDataSource.swift */; };
+		F49739F0239EA84100B6DBA9 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49739EF239EA84100B6DBA9 /* Restaurant.swift */; };
+		F49739F2239EA96B00B6DBA9 /* RestaurantOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49739F1239EA96B00B6DBA9 /* RestaurantOptionCell.swift */; };
+		F49739F5239EC65800B6DBA9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49739F4239EC65800B6DBA9 /* CustomButton.swift */; };
 		F4ADDD6F239AD4C6006EF465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDD6E239AD4C6006EF465 /* AppDelegate.swift */; };
 		F4ADDD71239AD4C6006EF465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADDD70239AD4C6006EF465 /* SceneDelegate.swift */; };
 		F4ADDD78239AD4CB006EF465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4ADDD77239AD4CB006EF465 /* Assets.xcassets */; };
@@ -79,6 +86,13 @@
 		F47F6CFC239C11AF0001C0F9 /* FinalFirstAccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalFirstAccessViewController.xib; sourceTree = "<group>"; };
 		F47F6CFE239C160E0001C0F9 /* CadastroProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroProtocols.swift; sourceTree = "<group>"; };
 		F47F6D01239C16870001C0F9 /* UserSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUp.swift; sourceTree = "<group>"; };
+		F49739E7239DB1DF00B6DBA9 /* RestaurantListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantListViewController.xib; sourceTree = "<group>"; };
+		F49739E9239E9A2B00B6DBA9 /* RestaurantOptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantOptionCell.xib; sourceTree = "<group>"; };
+		F49739EB239EA1B800B6DBA9 /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		F49739ED239EA78600B6DBA9 /* RestaurantListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListDataSource.swift; sourceTree = "<group>"; };
+		F49739EF239EA84100B6DBA9 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		F49739F1239EA96B00B6DBA9 /* RestaurantOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantOptionCell.swift; sourceTree = "<group>"; };
+		F49739F4239EC65800B6DBA9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		F4ADDD6B239AD4C6006EF465 /* EasyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4ADDD6E239AD4C6006EF465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4ADDD70239AD4C6006EF465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +208,42 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F49739E4239DB17300B6DBA9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F49739E5239DB18100B6DBA9 /* RestaurantList */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F49739E5239DB18100B6DBA9 /* RestaurantList */ = {
+			isa = PBXGroup;
+			children = (
+				F49739E6239DB1AA00B6DBA9 /* View */,
+				F49739EB239EA1B800B6DBA9 /* RestaurantListViewController.swift */,
+				F49739ED239EA78600B6DBA9 /* RestaurantListDataSource.swift */,
+			);
+			path = RestaurantList;
+			sourceTree = "<group>";
+		};
+		F49739E6239DB1AA00B6DBA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F49739E7239DB1DF00B6DBA9 /* RestaurantListViewController.xib */,
+				F49739E9239E9A2B00B6DBA9 /* RestaurantOptionCell.xib */,
+				F49739F1239EA96B00B6DBA9 /* RestaurantOptionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F49739F3239EC64800B6DBA9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F49739F4239EC65800B6DBA9 /* CustomButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F4ADDD62239AD4C6006EF465 = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +307,7 @@
 		F4ADDD9F239AD4FC006EF465 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				F49739F3239EC64800B6DBA9 /* Extensions */,
 				F4CB3751239C6B4B0093041A /* Models */,
 				F4ADDDA7239AD7C8006EF465 /* Router */,
 				F4ADDDA8239AD7DA006EF465 /* Scenes */,
@@ -303,6 +354,7 @@
 		F4ADDDA8239AD7DA006EF465 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F49739E4239DB17300B6DBA9 /* Home */,
 				F4ADDDC1239C00FD006EF465 /* First Access */,
 				F4ADDDAC239AF6DF006EF465 /* SignUp */,
 				F4ADDDAB239AF6D7006EF465 /* SignIn */,
@@ -424,6 +476,7 @@
 			isa = PBXGroup;
 			children = (
 				F4CB3752239C6B540093041A /* ModelRequests */,
+				F49739EF239EA84100B6DBA9 /* Restaurant.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -542,11 +595,13 @@
 			files = (
 				F47F6CFD239C11AF0001C0F9 /* FinalFirstAccessViewController.xib in Resources */,
 				F4ADDDB4239B42E8006EF465 /* LoginViewController.xib in Resources */,
+				F49739E8239DB1DF00B6DBA9 /* RestaurantListViewController.xib in Resources */,
 				F47F6CF5239C0F7B0001C0F9 /* AveragePriceViewController.xib in Resources */,
 				F4ADDD7B239AD4CB006EF465 /* LaunchScreen.storyboard in Resources */,
 				F4ADDD78239AD4CB006EF465 /* Assets.xcassets in Resources */,
 				F4ADDDA4239AD6D9006EF465 /* IntroViewController.xib in Resources */,
 				F4ADDDCA239C0179006EF465 /* WelcomeViewController.xib in Resources */,
+				F49739EA239E9A2B00B6DBA9 /* RestaurantOptionCell.xib in Resources */,
 				F4ADDDBC239BFD98006EF465 /* CadastroViewController.xib in Resources */,
 				F4ADDDD6239C021A006EF465 /* RestractionFoodsViewController.xib in Resources */,
 				F4ADDDCE239C01D8006EF465 /* FavoriteFoodsViewController.xib in Resources */,
@@ -582,14 +637,17 @@
 				F4ADDDD2239C01FA006EF465 /* FavoriteFoodsViewController.swift in Sources */,
 				F4CB375A239C72820093041A /* AveragePriceProtocols.swift in Sources */,
 				F4CB373D239C46C30093041A /* RouterFirstAccess.swift in Sources */,
+				F49739F5239EC65800B6DBA9 /* CustomButton.swift in Sources */,
 				F4ADDDB6239B45AE006EF465 /* LoginView.swift in Sources */,
 				F4CB374B239C59670093041A /* RouterProtocol.swift in Sources */,
+				F49739F0239EA84100B6DBA9 /* Restaurant.swift in Sources */,
 				F4CB3758239C71530093041A /* RestractionFoodsProtocols.swift in Sources */,
 				F4CB3754239C6B8E0093041A /* OptionsFood.swift in Sources */,
 				F4ADDDBE239C0096006EF465 /* CadastroViewController.swift in Sources */,
 				F4ADDDAA239AD7FB006EF465 /* RouterBase.swift in Sources */,
 				F4ADDD6F239AD4C6006EF465 /* AppDelegate.swift in Sources */,
 				F4ADDDB8239B482B006EF465 /* LoginViewController.swift in Sources */,
+				F49739EC239EA1B800B6DBA9 /* RestaurantListViewController.swift in Sources */,
 				F4ADDDB0239B1A12006EF465 /* IntroView.swift in Sources */,
 				F4CB374D239C5ECC0093041A /* NavigationType.swift in Sources */,
 				F4CB3756239C6D930093041A /* FavoriteFoodsProtocols.swift in Sources */,
@@ -600,8 +658,10 @@
 				F4CB374F239C655F0093041A /* WelcomeProtocols.swift in Sources */,
 				F47F6CF1239C0F5C0001C0F9 /* AveragePriceViewController.swift in Sources */,
 				F47F6CF3239C0F6B0001C0F9 /* AveragePriceView.swift in Sources */,
+				F49739EE239EA78600B6DBA9 /* RestaurantListDataSource.swift in Sources */,
 				F4ADDDDA239C0230006EF465 /* RestractionFoodsViewController.swift in Sources */,
 				F47F6CFF239C160E0001C0F9 /* CadastroProtocols.swift in Sources */,
+				F49739F2239EA96B00B6DBA9 /* RestaurantOptionCell.swift in Sources */,
 				F47F6D02239C16870001C0F9 /* UserSignUp.swift in Sources */,
 				F4ADDDC8239C0168006EF465 /* WelcomeView.swift in Sources */,
 				F4ADDDC0239C009F006EF465 /* CadastroView.swift in Sources */,

@@ -9,11 +9,19 @@
 import Foundation
 import UIKit
 
-
-
 class IntroView: UIView, IntroViewProtocolType {
     
+    @IBOutlet weak var btnSignIn: CustomButton!
+    @IBOutlet weak var btnSignUp: CustomButton!
+    
     weak var controller: IntroViewDelegate?
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        btnSignIn.customSetup()
+        btnSignUp.customSetup()
+        // Initialization code
+    }
     
     @IBAction func btnSignIn(_ sender: UIButton) {
         controller?.buttonLogin()

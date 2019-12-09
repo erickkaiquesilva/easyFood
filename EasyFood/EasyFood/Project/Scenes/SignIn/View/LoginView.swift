@@ -14,8 +14,14 @@ class LoginView: UIView, LoginViewProtocolType {
     
     @IBOutlet weak var textFieldEmail: UITextField!
     @IBOutlet weak var textFieldPassword: UITextField!
+    @IBOutlet weak var btnSignIn: CustomButton!
     
-    @IBAction func btnSignInt(_ sender: UIButton) {
+    
+    override class func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
+    @IBAction func btnSignIn(_ sender: UIButton) {
         controller?.recepitData(email: textFieldEmail.text,
                                 password: textFieldPassword.text)
     }

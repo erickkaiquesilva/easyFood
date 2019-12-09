@@ -31,7 +31,7 @@ class RouterBase: RouterProtocol {
     
     func loginViewController() {
         let loginViewController = LoginViewController(nibName: "LoginViewController", bundle: nil)
-        
+        loginViewController.delegate = self
         currentViewController = loginViewController
         show(viewController: loginViewController, with: .push)
     }
@@ -47,6 +47,11 @@ class RouterBase: RouterProtocol {
         let firstAccessRoter = RouterFirstAccess(navigationController: navigationController, user: user)
         firstAccessRoter.start(with: .push)
     }
+    
+    func homeController() {
+        let homeController = RestaurantListViewController(nibName: "RestaurantListViewController", bundle: nil)
+        show(viewController: homeController, with: .push)
+    }
 }
 
 extension RouterBase: IntroViewControllerDelegate {
@@ -56,6 +61,12 @@ extension RouterBase: IntroViewControllerDelegate {
     
     func goToSignUp() {
         cadastroViewController()
+    }
+}
+
+extension RouterBase: LoginViewControllerDelegate {
+    func wantsToContinue() {
+        homeController()
     }
 }
 

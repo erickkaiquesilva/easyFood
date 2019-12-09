@@ -8,7 +8,9 @@
 
 import UIKit
 
-class LoginViewController: UIViewController, LoginViewDelegate {
+class LoginViewController: UIViewController, LoginViewDelegate, LoginViewControllerProtocolType {
+    
+    weak var delegate: LoginViewControllerDelegate?
     
     @IBOutlet var uiLogin: LoginView!
     
@@ -24,6 +26,6 @@ class LoginViewController: UIViewController, LoginViewDelegate {
     }
     
     func recepitData(email: String?, password: String?) {
-        print("\(email) - \(password)")
+        delegate?.wantsToContinue()
     }
 }

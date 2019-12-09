@@ -15,3 +15,11 @@ protocol LoginViewProtocolType {
 protocol LoginViewDelegate: class {
     func recepitData(email: String?, password: String?)
 }
+
+protocol LoginViewControllerProtocolType {
+    var delegate: LoginViewControllerDelegate? { get set }
+}
+
+protocol LoginViewControllerDelegate: class {
+    func wantsToContinue()
+}

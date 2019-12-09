@@ -42,7 +42,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1C-DK-qt9">
                                     <rect key="frame" x="0.0" y="500" width="375" height="166"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKn-aq-q31">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKn-aq-q31" customClass="CustomButton" customModule="EasyFood" customModuleProvider="target">
                                             <rect key="frame" x="40" y="40" width="295" height="50"/>
                                             <color key="backgroundColor" red="1" green="0.50980392156862742" blue="0.47843137254901957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
@@ -56,7 +56,7 @@
                                                 <action selector="btnSignIn:" destination="iN0-l3-epB" eventType="touchUpInside" id="Sta-yD-79b"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sry-KR-HdI">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sry-KR-HdI" customClass="CustomButton" customModule="EasyFood" customModuleProvider="target">
                                             <rect key="frame" x="40" y="100" width="295" height="50"/>
                                             <color key="backgroundColor" red="0.4392156862745098" green="0.92156862745098034" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
@@ -119,6 +119,10 @@
                 <constraint firstItem="zBy-sA-eYC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wNX-In-jnT"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnSignIn" destination="yKn-aq-q31" id="zKQ-6N-8Iq"/>
+                <outlet property="btnSignUp" destination="Sry-KR-HdI" id="X6i-Rs-nFk"/>
+            </connections>
             <point key="canvasLocation" x="189.59999999999999" y="46.326836581709152"/>
         </view>
     </objects>
