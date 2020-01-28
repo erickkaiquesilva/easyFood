@@ -10,6 +10,15 @@
     --colorPrimary: #FCFFFF;
     --colorSecundaryOne: #1f1f1f;
     --colorSecundaryTwo: #F8D86E;
+
+    --green: #5CE7A4;
+    --yellow: #F8D86E;
+    --red: #F86E6E;
+    --white: #FFFFFF;
+
+    --greenDark: #4EB583;
+    --yellowDark: #C5AB57;
+    --redDark: #DD5858;
 }
 
 /* Typography Setting */
@@ -29,5 +38,15 @@
 .linkSmall { text-decoration: none; font-size: 0.875em; }
 
 /* Button's Setting */
-.btnLarge { width: 100%; max-width: 380px; height: 70px; border-radius: 100px; margin: 10px 0px; cursor: pointer; }
-.btnMedium { width: 80%; max-width: 200px; height: 50px; border-radius: 100px; margin: 10px 0px; cursor: pointer; }
+.btnLarge { width: 100%; max-width: 380px; height: 60px; font-size: 1.2em; border-radius: 100px; border: 3px solid; margin: 10px 0px; cursor: pointer; }
+.btnMedium { width: 80%; max-width: 200px; height: 50px; border-radius: 100px; margin: 10px 0px; border: 2px solid; margin: 7px 0px; cursor: pointer; }
+
+.btnGreen { background: var(--green); color: var(--white); border-color: var(--green); }
+.btnYellow { background: var(--yellow); color: var(--white); border-color: var(--yellow); }
+.btnRed { background: var(--red); color: var(--white); border-color: var(--red); }
+
+.btnGreen:hover { background: var(--greenDark); color: var(--white); border-color: var(--greenDark); }
+.btnYellow:hover { background: var(--yellowDark); color: var(--white); border-color: var(--yellowDark); }
+.btnRed:hover { background: var(--redDark); color: var(--white); border-color: var(--redDark); }
+
+.transition { transition: all .7s ease;}
