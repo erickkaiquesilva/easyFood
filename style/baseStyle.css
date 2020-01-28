@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+    padding: 0px 0px;
+    font-family: 'Fonce Sans', 'sans-serif';
+    font-size: 1em;
+    outline: none;
+}
+
+:root {
+    --colorPrimary: #FCFFFF;
+    --colorSecundaryOne: #1f1f1f;
+    --colorSecundaryTwo: #F8D86E;
+}
+
+/* Typography Setting */
+.bigTitle { font-size: 5em }
+.largeTitle { font-size: 3.5em }
+.subTitle { font-size: 2em }
+.flowingText { font-size: 1em; line-height: 200%; }
+
+/* Color Setting */
+.colorPrimary { width: 200px; height: 200px; background: var(--colorPrimary) }
+.colorSecundaryOne { width: 200px; height: 200px; background: var(--colorSecundaryOne); color: #FFF;  }
+.colorSecundaryTwo { width: 200px; height: 200px; background: var(--colorSecundaryTwo) }
+
+/* Link's Setting */
+.linkLarge { text-decoration: none; font-size: 1.7em; }
+.linkMedium { text-decoration: none; font-size: 1.3em; }
+.linkSmall { text-decoration: none; font-size: 0.875em; }
+
+/* Button's Setting */
+.btnLarge { width: 100%; max-width: 380px; height: 70px; border-radius: 100px; margin: 10px 0px; cursor: pointer; }
+.btnMedium { width: 80%; max-width: 200px; height: 50px; border-radius: 100px; margin: 10px 0px; cursor: pointer; }
