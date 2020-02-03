@@ -19,7 +19,7 @@ class InitialCoordinator: Coordinator {
     }
     
     func start() {
-        let viewController = InitalViewController()
+        let viewController = IntroViewController()
         currentViewController = viewController
         navigationController.pushViewController(viewController, animated: true)
     }
