@@ -19,6 +19,8 @@
 		F449E79523E46D7600BE0058 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E79423E46D7600BE0058 /* IntroViewController.swift */; };
 		F449E79823E46E7500BE0058 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E79723E46E7500BE0058 /* IntroView.swift */; };
 		F449E79B23E473DB00BE0058 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E79A23E473DB00BE0058 /* UIView+Ext.swift */; };
+		F449E7A423E8A8B800BE0058 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7A323E8A8B800BE0058 /* Fonts.swift */; };
+		F449E7A623E8A8E700BE0058 /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7A523E8A8E700BE0058 /* FontFamily.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		F449E79423E46D7600BE0058 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		F449E79723E46E7500BE0058 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		F449E79A23E473DB00BE0058 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		F449E7A023E8A14D00BE0058 /* marguerite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = marguerite.ttf; sourceTree = "<group>"; };
+		F449E7A323E8A8B800BE0058 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		F449E7A523E8A8E700BE0058 /* FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
+		F449E7A723E8AD0200BE0058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Fonce Sans.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +113,10 @@
 		F449E75723E372B600BE0058 /* base-app */ = {
 			isa = PBXGroup;
 			children = (
+				F449E79C23E8A0B000BE0058 /* Resources */,
 				F449E79923E473C800BE0058 /* Extension */,
 				F449E78823E375F000BE0058 /* AppConfiguration */,
 				F449E78D23E3806F00BE0058 /* Scenes */,
-				F449E76123E372BA00BE0058 /* Assets.xcassets */,
-				F449E76323E372BA00BE0058 /* LaunchScreen.storyboard */,
 				F449E76623E372BA00BE0058 /* Info.plist */,
 			);
 			path = "base-app";
@@ -194,6 +199,51 @@
 				F449E79A23E473DB00BE0058 /* UIView+Ext.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		F449E79C23E8A0B000BE0058 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F449E76323E372BA00BE0058 /* LaunchScreen.storyboard */,
+				F449E76123E372BA00BE0058 /* Assets.xcassets */,
+				F449E79E23E8A0CA00BE0058 /* Fonts */,
+				F449E79D23E8A0BE00BE0058 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F449E79D23E8A0BE00BE0058 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F449E79E23E8A0CA00BE0058 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F449E7A223E8A89B00BE0058 /* Marguerite */,
+				F449E7A123E8A88A00BE0058 /* FonceSans */,
+				F449E7A323E8A8B800BE0058 /* Fonts.swift */,
+				F449E7A523E8A8E700BE0058 /* FontFamily.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F449E7A123E8A88A00BE0058 /* FonceSans */ = {
+			isa = PBXGroup;
+			children = (
+				F449E7A823E8AD0200BE0058 /* Fonce Sans.ttf */,
+			);
+			path = FonceSans;
+			sourceTree = "<group>";
+		};
+		F449E7A223E8A89B00BE0058 /* Marguerite */ = {
+			isa = PBXGroup;
+			children = (
+				F449E7A023E8A14D00BE0058 /* marguerite.ttf */,
+			);
+			path = Marguerite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,11 +378,13 @@
 			files = (
 				F449E79B23E473DB00BE0058 /* UIView+Ext.swift in Sources */,
 				F449E79823E46E7500BE0058 /* IntroView.swift in Sources */,
+				F449E7A623E8A8E700BE0058 /* FontFamily.swift in Sources */,
 				F449E78A23E3767500BE0058 /* AppCoordinator.swift in Sources */,
 				F449E78F23E3808700BE0058 /* InitialCoordinator.swift in Sources */,
 				F449E79523E46D7600BE0058 /* IntroViewController.swift in Sources */,
 				F449E78C23E37FB400BE0058 /* Coordinator.swift in Sources */,
 				F449E75923E372B600BE0058 /* AppDelegate.swift in Sources */,
+				F449E7A423E8A8B800BE0058 /* Fonts.swift in Sources */,
 				F449E75B23E372B600BE0058 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +427,14 @@
 				F449E76423E372BA00BE0058 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F449E7A823E8AD0200BE0058 /* Fonce Sans.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F449E7A723E8AD0200BE0058 /* Base */,
+			);
+			name = "Fonce Sans.ttf";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

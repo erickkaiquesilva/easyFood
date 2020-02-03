@@ -10,46 +10,25 @@ import UIKit
 
 class IntroViewController: UIViewController {
     
-    let orangeView = UIView()
-    let blueView = UIView()
-    let greenView = UIView()
+    let contentView: IntroView
     
-    let blackView = UIView()
+    init(contentView: IntroView = IntroView()) {
+        self.contentView = contentView
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        orangeView.backgroundColor = .orange
-        blueView.backgroundColor = .blue
-        greenView.backgroundColor = .green
         view.backgroundColor = .white
-        blackView.backgroundColor = .black
-        
-        bindLayouts()
     }
     
-    func bindLayouts() {
-        [greenView].forEach { view.addSubview($0) }
-        greenView.addSubview(orangeView)
-        orangeView.addSubview(blueView)
-        addConstrains()
+    override func loadView() {
+        view = contentView
     }
     
-    func addConstrains() {
-        
-        greenView.topSuperView(to: self.view, margin: 16)
-        greenView.leadingSuperView(to: self.view, margin: 16)
-        greenView.trailingSuperView(to: self.view, margin: 16)
-        greenView.bottomSuperView(to: self.view, margin: 16)
-        
-        orangeView.topView(to: greenView, margin: 10)
-        orangeView.bottomView(to: greenView, margin: 10)
-        orangeView.leadingView(to: greenView, margin: 12)
-        orangeView.trailingView(to: greenView, margin: 12)
-        
-        blueView.sizeWidth(width: 200)
-        blueView.sizeHeight(height: 200)
-        blueView.topView(to: orangeView, margin: 16)
-        blueView.trailingView(to: orangeView, margin: 16)
-    }
 }
