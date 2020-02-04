@@ -21,6 +21,11 @@
 		F449E79B23E473DB00BE0058 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E79A23E473DB00BE0058 /* UIView+Ext.swift */; };
 		F449E7A423E8A8B800BE0058 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7A323E8A8B800BE0058 /* Fonts.swift */; };
 		F449E7A623E8A8E700BE0058 /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7A523E8A8E700BE0058 /* FontFamily.swift */; };
+		F449E7AB23E9D95800BE0058 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7AA23E9D95800BE0058 /* Colors.swift */; };
+		F449E7AE23E9EA0800BE0058 /* Localizable+Intro.strings in Resources */ = {isa = PBXBuildFile; fileRef = F449E7AD23E9EA0800BE0058 /* Localizable+Intro.strings */; };
+		F449E7B023E9EA6C00BE0058 /* Localizable+Buttons.strings in Resources */ = {isa = PBXBuildFile; fileRef = F449E7AF23E9EA6C00BE0058 /* Localizable+Buttons.strings */; };
+		F449E7B223E9EABD00BE0058 /* LocalizableStrings+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7B123E9EABD00BE0058 /* LocalizableStrings+Intro.swift */; };
+		F449E7B423E9EB9300BE0058 /* LocalizableStrings+Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7B323E9EB9300BE0058 /* LocalizableStrings+Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		F449E7A323E8A8B800BE0058 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		F449E7A523E8A8E700BE0058 /* FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
 		F449E7A723E8AD0200BE0058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Fonce Sans.ttf"; sourceTree = "<group>"; };
+		F449E7AA23E9D95800BE0058 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F449E7AD23E9EA0800BE0058 /* Localizable+Intro.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = "Localizable+Intro.strings"; sourceTree = "<group>"; };
+		F449E7AF23E9EA6C00BE0058 /* Localizable+Buttons.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = "Localizable+Buttons.strings"; sourceTree = "<group>"; };
+		F449E7B123E9EABD00BE0058 /* LocalizableStrings+Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizableStrings+Intro.swift"; sourceTree = "<group>"; };
+		F449E7B323E9EB9300BE0058 /* LocalizableStrings+Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizableStrings+Buttons.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +123,9 @@
 		F449E75723E372B600BE0058 /* base-app */ = {
 			isa = PBXGroup;
 			children = (
+				F449E78823E375F000BE0058 /* AppConfiguration */,
 				F449E79C23E8A0B000BE0058 /* Resources */,
 				F449E79923E473C800BE0058 /* Extension */,
-				F449E78823E375F000BE0058 /* AppConfiguration */,
 				F449E78D23E3806F00BE0058 /* Scenes */,
 				F449E76623E372BA00BE0058 /* Info.plist */,
 			);
@@ -208,6 +218,8 @@
 				F449E76123E372BA00BE0058 /* Assets.xcassets */,
 				F449E79E23E8A0CA00BE0058 /* Fonts */,
 				F449E79D23E8A0BE00BE0058 /* Images */,
+				F449E7A923E9D94100BE0058 /* Colors */,
+				F449E7AC23E9E9A500BE0058 /* Strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -244,6 +256,25 @@
 				F449E7A023E8A14D00BE0058 /* marguerite.ttf */,
 			);
 			path = Marguerite;
+			sourceTree = "<group>";
+		};
+		F449E7A923E9D94100BE0058 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				F449E7AA23E9D95800BE0058 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		F449E7AC23E9E9A500BE0058 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				F449E7AD23E9EA0800BE0058 /* Localizable+Intro.strings */,
+				F449E7AF23E9EA6C00BE0058 /* Localizable+Buttons.strings */,
+				F449E7B123E9EABD00BE0058 /* LocalizableStrings+Intro.swift */,
+				F449E7B323E9EB9300BE0058 /* LocalizableStrings+Buttons.swift */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +383,8 @@
 			files = (
 				F449E76523E372BA00BE0058 /* LaunchScreen.storyboard in Resources */,
 				F449E76223E372BA00BE0058 /* Assets.xcassets in Resources */,
+				F449E7AE23E9EA0800BE0058 /* Localizable+Intro.strings in Resources */,
+				F449E7B023E9EA6C00BE0058 /* Localizable+Buttons.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,9 +409,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F449E7B223E9EABD00BE0058 /* LocalizableStrings+Intro.swift in Sources */,
 				F449E79B23E473DB00BE0058 /* UIView+Ext.swift in Sources */,
+				F449E7AB23E9D95800BE0058 /* Colors.swift in Sources */,
 				F449E79823E46E7500BE0058 /* IntroView.swift in Sources */,
 				F449E7A623E8A8E700BE0058 /* FontFamily.swift in Sources */,
+				F449E7B423E9EB9300BE0058 /* LocalizableStrings+Buttons.swift in Sources */,
 				F449E78A23E3767500BE0058 /* AppCoordinator.swift in Sources */,
 				F449E78F23E3808700BE0058 /* InitialCoordinator.swift in Sources */,
 				F449E79523E46D7600BE0058 /* IntroViewController.swift in Sources */,

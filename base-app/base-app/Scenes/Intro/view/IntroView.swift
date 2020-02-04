@@ -13,9 +13,9 @@ class IntroView: UIView {
     
     let btnSignIn: UIButton = {
         let btn = UIButton()
-        btn.setTitle("Sign In", for: .normal)
+        btn.setTitle(LocalizedStrings.buttonSignIn, for: .normal)
         btn.titleLabel?.font = UIFont.largeFonceSansText
-        btn.backgroundColor = .blue
+        btn.backgroundColor = UIColor.backgroundBlack
         btn.sizeHeight(height: 60)
         return btn
     }()
@@ -23,7 +23,10 @@ class IntroView: UIView {
     
     let btnSignUp: UIButton = {
         let btn = UIButton()
-        btn.titleLabel?.text = "Sign Up"
+        btn.setTitle(LocalizedStrings.buttonSignUp, for: .normal)
+        btn.titleLabel?.font = UIFont.largeFonceSansText
+        btn.backgroundColor = UIColor.backgroundWithe
+        btn.sizeHeight(height: 60)
         btn.backgroundColor = .orange
         return btn
     }()
@@ -45,11 +48,17 @@ class IntroView: UIView {
     
     func bindLayoutEvents() {
         self.addSubview(btnSignIn)
+        self.addSubview(btnSignUp)
     }
     
     func addConstraint() {
-        btnSignIn.trailingView(to: self, margin: 36)
+        
+        btnSignUp.leadingView(to: self, margin: 36)
+        btnSignUp.trailingView(to: self, margin: 36)
+        btnSignUp.bottomView(to: btnSignIn, margin: 12)
+        
         btnSignIn.leadingView(to: self, margin: 36)
+        btnSignIn.trailingView(to: self, margin: 36)
         btnSignIn.bottomView(to: self, margin: 36)
     }
     
