@@ -26,6 +26,8 @@
 		F449E7B023E9EA6C00BE0058 /* Localizable+Buttons.strings in Resources */ = {isa = PBXBuildFile; fileRef = F449E7AF23E9EA6C00BE0058 /* Localizable+Buttons.strings */; };
 		F449E7B223E9EABD00BE0058 /* LocalizableStrings+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7B123E9EABD00BE0058 /* LocalizableStrings+Intro.swift */; };
 		F449E7B423E9EB9300BE0058 /* LocalizableStrings+Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7B323E9EB9300BE0058 /* LocalizableStrings+Buttons.swift */; };
+		F449E7BA23EB364400BE0058 /* EasyFoodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7B923EB364400BE0058 /* EasyFoodButton.swift */; };
+		F449E7BC23EB3DA200BE0058 /* EFButtonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7BB23EB3DA200BE0058 /* EFButtonLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		F449E7AF23E9EA6C00BE0058 /* Localizable+Buttons.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = "Localizable+Buttons.strings"; sourceTree = "<group>"; };
 		F449E7B123E9EABD00BE0058 /* LocalizableStrings+Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizableStrings+Intro.swift"; sourceTree = "<group>"; };
 		F449E7B323E9EB9300BE0058 /* LocalizableStrings+Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizableStrings+Buttons.swift"; sourceTree = "<group>"; };
+		F449E7B923EB364400BE0058 /* EasyFoodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyFoodButton.swift; sourceTree = "<group>"; };
+		F449E7BB23EB3DA200BE0058 /* EFButtonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFButtonLoadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,9 +284,27 @@
 		F449E7B623EB322E00BE0058 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				F449E79A23E473DB00BE0058 /* AutoLayout.swift */,
+				F449E7B823EB34F100BE0058 /* Buttons */,
+				F449E7B723EB34CB00BE0058 /* AutoLayout */,
 			);
 			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		F449E7B723EB34CB00BE0058 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F449E79A23E473DB00BE0058 /* AutoLayout.swift */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		F449E7B823EB34F100BE0058 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F449E7B923EB364400BE0058 /* EasyFoodButton.swift */,
+				F449E7BB23EB3DA200BE0058 /* EFButtonLoadable.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,6 +441,7 @@
 			files = (
 				F449E7B223E9EABD00BE0058 /* LocalizableStrings+Intro.swift in Sources */,
 				F449E79B23E473DB00BE0058 /* AutoLayout.swift in Sources */,
+				F449E7BC23EB3DA200BE0058 /* EFButtonLoadable.swift in Sources */,
 				F449E7AB23E9D95800BE0058 /* Colors.swift in Sources */,
 				F449E79823E46E7500BE0058 /* IntroView.swift in Sources */,
 				F449E7A623E8A8E700BE0058 /* FontFamily.swift in Sources */,
@@ -428,6 +451,7 @@
 				F449E79523E46D7600BE0058 /* IntroViewController.swift in Sources */,
 				F449E78C23E37FB400BE0058 /* Coordinator.swift in Sources */,
 				F449E75923E372B600BE0058 /* AppDelegate.swift in Sources */,
+				F449E7BA23EB364400BE0058 /* EasyFoodButton.swift in Sources */,
 				F449E7A423E8A8B800BE0058 /* Fonts.swift in Sources */,
 				F449E75B23E372B600BE0058 /* SceneDelegate.swift in Sources */,
 			);

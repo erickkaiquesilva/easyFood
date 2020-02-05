@@ -16,7 +16,7 @@ class IntroView: UIView {
         btn.setTitle(LocalizedStrings.buttonSignIn, for: .normal)
         btn.titleLabel?.font = UIFont.largeFonceSansText
         btn.backgroundColor = UIColor.backgroundBlack
-        btn.sizeHeight(height: 60)
+        
         return btn
     }()
     
@@ -26,10 +26,12 @@ class IntroView: UIView {
         btn.setTitle(LocalizedStrings.buttonSignUp, for: .normal)
         btn.titleLabel?.font = UIFont.largeFonceSansText
         btn.backgroundColor = UIColor.backgroundWithe
-        btn.sizeHeight(height: 60)
+        
         btn.backgroundColor = .orange
         return btn
     }()
+    
+    let btnDesignSystem = EFButton(type: .secundary, title: "testando botão".uppercased())
     
     override init(frame: CGRect = .zero) {
         super.init(frame: frame)
@@ -47,19 +49,32 @@ class IntroView: UIView {
     }
     
     func bindLayoutEvents() {
+        self.addSubview(btnDesignSystem)
         self.addSubview(btnSignIn)
         self.addSubview(btnSignUp)
     }
     
     func addConstraint() {
         
-        btnSignUp.leadingView(to: self, margin: 36)
-        btnSignUp.trailingView(to: self, margin: 36)
-        btnSignUp.bottomView(to: btnSignIn, margin: 12)
+        btnDesignSystem.con.applyConstraint { view in
+            view.leftSafeArea(alinedWith: self, offset: 36)
+            view.rightSafeArea(alignedWith: self, offset: 36)
+            view.above(view: btnSignIn, offSet: 16)
+        }
         
-        btnSignIn.leadingView(to: self, margin: 36)
-        btnSignIn.trailingView(to: self, margin: 36)
-        btnSignIn.bottomView(to: self, margin: 36)
+        btnSignIn.con.applyConstraint { view in
+            view.leftSafeArea(alinedWith: self, offset: 16)
+            view.rightSafeArea(alignedWith: self, offset: 16)
+            view.above(view: btnSignUp, offSet: 16)
+            view.height(55)
+        }
+        
+        btnSignUp.con.applyConstraint { view in
+            view.rightSafeArea(alignedWith: self, offset: 16)
+            view.leftSafeArea(alinedWith: self, offset: 16)
+            view.bottomSafaArea(alignedWith: self, offset: 16)
+            view.height(55)
+        }
     }
     
 }
