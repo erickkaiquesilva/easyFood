@@ -29,7 +29,7 @@ extension NSLayoutConstraint {
     
     static func inset(view: UIView, inSuperview superView: UIView,
                       withInset inset: UIEdgeInsets? =  nil) -> [NSLayoutConstraint] {
-        return [.top(firstView: superView, secondView: view, relation: .equal, constant: -Float(inset?.left ?? 0) ),
+        return [.top(firstView: superView, secondView: view, relation: .equal, constant: -Float(inset?.top ?? 0) ),
                 .left(firstView: superView, secondView: view, relation: .equal, constant: -Float(inset?.left ?? 0) ),
                 .right(firstView: superView, secondView: view, relation: .equal, constant: -Float(inset?.right ?? 0) ),
                 .bottom(firstView: superView, secondView: view, relation: .equal, constant: -Float(inset?.bottom ?? 0) )]
@@ -463,6 +463,90 @@ public class EasyFoodConstraint {
     public func center(in view: UIView, relation: NSLayoutConstraintType = .equal, offSet: Float = 0) {
         horizontalCenter(view: view, relation: relation, offSet: offSet)
         verticalCenter(view: view, relation: relation, offSet: offSet)
+    }
+    
+    public func size(relatedTo view: UIView,
+                     relation: NSLayoutConstraintType = .equal,
+                     offSet: Float = 0) {
+        width(relatedTo: view, relation: relation, offSet)
+        height(relatedTo: view, relation: relation, offSet)
+    }
+    
+    @discardableResult
+    
+    public func topSafeArea(aligneWith: UIView,
+                            relation: NSLayoutConstraintType = .equal,
+                            offset: CGFloat = 0,
+                            priority: UILayoutPriority = .required) -> NSLayoutConstraint {
+        
+        let constraint = self.view.topAnchor.constraint(equalTo: aligneWith.safeAreaLayoutGuide.topAnchor,
+                                                        constant: offset)
+        constraint.isActive = true
+        constraint.priority = priority
+        
+        return constraint
+    }
+    
+    @discardableResult
+    
+    public func bottomSafaArea(alignedWith: UIView,
+                               relation: NSLayoutConstraintType = .equal,
+                               offset: CGFloat = 0, priority: UILayoutPriority = .required) -> NSLayoutConstraint {
+        
+        let constraint = self.view.bottomAnchor.constraint(equalTo: alignedWith.safeAreaLayoutGuide.bottomAnchor, constant: -offset)
+        
+        constraint.isActive = true
+        constraint.priority = priority
+        return constraint
+    }
+    
+    @discardableResult
+    
+    public func leftSafeArea(alinedWith: UIView,
+                             relation: NSLayoutConstraintType = .equal,
+                             offset: CGFloat = 0) -> NSLayoutConstraint {
+       
+        let constraint = self.view.leftAnchor.constraint(equalTo: alinedWith.safeAreaLayoutGuide.leftAnchor, constant: offset)
+        
+        constraint.isActive = true
+        return constraint
+    }
+    
+    @discardableResult
+    
+    public func rightSafeArea(alignedWith: UIView,
+                              relation: NSLayoutConstraintType = .equal,
+                              offset: CGFloat = 0) -> NSLayoutConstraint {
+        
+        let constraint = self.view.rightAnchor.constraint(equalTo: alignedWith.safeAreaLayoutGuide.rightAnchor, constant: -offset)
+        
+        constraint.isActive = true
+        return constraint
+    }
+    
+    @discardableResult
+    
+    public func aspectRatio(relation: NSLayoutConstraintType = .equal, offset: Float = 0) -> NSLayoutConstraint {
+        let constraint = NSLayoutConstraint.aspectRatio(view: self.view, constant: offset)
+        
+        constraint.isActive = true
+        return constraint
+    }
+    
+    public func removeConstraints() {
+        self.view.removeConstraints(self.view.constraints)
+    }
+    
+    public func bottomSafeArea(alignedWith: UIView, offsetForStandardLayouts offset: Float) {
+        self.bottomSafaArea(alignedWith: alignedWith, priority: .defaultLow)
+        self.bottom(alignedWith: alignedWith, relation: .lessThanOrEqual, offSet: offset, priority: .defaultHigh)
+    }
+    
+    public func verticalCenterBetween(upperAnchor: NSLayoutAnchor<NSLayoutYAxisAnchor>, lowerAnchor: NSLayoutAnchor<NSLayoutXAxisAnchor>) {
+        let topLayoutGuide = UILayoutGuide()
+        let bottomLayoutGuide = UILayoutGuide()
+        view.addLayoutGuide(topLayoutGuide)
+        view.addLayoutGuide(bottomLayoutGuide)
     }
     
     @discardableResult
