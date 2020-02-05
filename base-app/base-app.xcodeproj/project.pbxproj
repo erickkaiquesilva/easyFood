@@ -18,7 +18,7 @@
 		F449E78F23E3808700BE0058 /* InitialCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E78E23E3808700BE0058 /* InitialCoordinator.swift */; };
 		F449E79523E46D7600BE0058 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E79423E46D7600BE0058 /* IntroViewController.swift */; };
 		F449E79823E46E7500BE0058 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E79723E46E7500BE0058 /* IntroView.swift */; };
-		F449E79B23E473DB00BE0058 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E79A23E473DB00BE0058 /* UIView+Ext.swift */; };
+		F449E79B23E473DB00BE0058 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E79A23E473DB00BE0058 /* AutoLayout.swift */; };
 		F449E7A423E8A8B800BE0058 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7A323E8A8B800BE0058 /* Fonts.swift */; };
 		F449E7A623E8A8E700BE0058 /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7A523E8A8E700BE0058 /* FontFamily.swift */; };
 		F449E7AB23E9D95800BE0058 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F449E7AA23E9D95800BE0058 /* Colors.swift */; };
@@ -63,7 +63,7 @@
 		F449E78E23E3808700BE0058 /* InitialCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCoordinator.swift; sourceTree = "<group>"; };
 		F449E79423E46D7600BE0058 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		F449E79723E46E7500BE0058 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
-		F449E79A23E473DB00BE0058 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		F449E79A23E473DB00BE0058 /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
 		F449E7A023E8A14D00BE0058 /* marguerite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = marguerite.ttf; sourceTree = "<group>"; };
 		F449E7A323E8A8B800BE0058 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		F449E7A523E8A8E700BE0058 /* FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
@@ -103,6 +103,7 @@
 		F449E74C23E372B600BE0058 = {
 			isa = PBXGroup;
 			children = (
+				F449E7B623EB322E00BE0058 /* DesignSystem */,
 				F449E75723E372B600BE0058 /* base-app */,
 				F449E76E23E372BA00BE0058 /* base-appTests */,
 				F449E77923E372BA00BE0058 /* base-appUITests */,
@@ -206,7 +207,6 @@
 		F449E79923E473C800BE0058 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F449E79A23E473DB00BE0058 /* UIView+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -275,6 +275,14 @@
 				F449E7B323E9EB9300BE0058 /* LocalizableStrings+Buttons.swift */,
 			);
 			path = Strings;
+			sourceTree = "<group>";
+		};
+		F449E7B623EB322E00BE0058 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				F449E79A23E473DB00BE0058 /* AutoLayout.swift */,
+			);
+			path = DesignSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,7 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F449E7B223E9EABD00BE0058 /* LocalizableStrings+Intro.swift in Sources */,
-				F449E79B23E473DB00BE0058 /* UIView+Ext.swift in Sources */,
+				F449E79B23E473DB00BE0058 /* AutoLayout.swift in Sources */,
 				F449E7AB23E9D95800BE0058 /* Colors.swift in Sources */,
 				F449E79823E46E7500BE0058 /* IntroView.swift in Sources */,
 				F449E7A623E8A8E700BE0058 /* FontFamily.swift in Sources */,
